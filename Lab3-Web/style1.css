@@ -1,0 +1,49 @@
+/* Styling for the Navigation Bar */
+.navbar {
+    background-color: #666;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for Content Section */
+  .content-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .text-content {
+    width: 60%;
+    text-align: left;
+    color: #333;
+  }
+  
+  .image-content {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .image-content img {
+    width: 90%;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  

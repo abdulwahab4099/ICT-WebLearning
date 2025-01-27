@@ -1,0 +1,64 @@
+*{
+    background-color: bisque;
+}
+
+.Menu{
+
+    display:flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.LeftMenu{
+    
+    background-color: aliceblue;
+    display: flex;
+}
+
+.item{
+    
+    background-color: aliceblue;
+    margin:5px 10px
+}
+
+.item a{
+    
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+}
+
+.RightMenu button{
+padding: 10px 10px;
+background-color: black;
+color: white;
+}
+
+.BlogContainer{
+    display: flex;
+    border: solid black 1px;
+    
+}
+
+.BlogInfo{
+    padding:5px 10px 5px 10px;
+}
+
+.BlogImage img{
+border: solid black 50px;
+}
+
+.BlogImage .image{
+border:solid black 5px;
+}
+
+.heading4{
+    
+}
+.BlogInfo h4{
+font-size:100px
+}
+
+.BlogInfo .heading4{
+    font-size: 50px;
+}

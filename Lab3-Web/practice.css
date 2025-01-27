@@ -1,0 +1,74 @@
+*{
+    background-color: blanchedalmond;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(229, 223, 215);
+    padding: 50px;
+    border-radius: 100px;
+}
+ .LeftMenu {
+    display: flex;
+    
+    
+    justify-content: space-between;
+    background-color: rgb(229, 223, 215);
+    padding: 10px;
+    border-radius: 5px;
+}
+.item {
+    background-color: rgb(237, 232, 243);
+    
+
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    transition: background-color 0.3s ease;
+    text-decoration:dashed;
+
+    border-radius: 5px;
+    
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    
+}
+
+.item:hover {
+    background-color: darkblue;
+}
+
+.RightMenu {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(229, 223, 215);
+    padding: 10px;
+
+    border-radius: 5px;
+}
+
+.Page {
+    
+    font-style: inherit;
+    
+
+}
+.Pageinfo {
+    
+
+
+}
+
+.Pageimage {
+    width: 300px;
+    height: 200px;
+    justify-content: right;
+
+}
+
+
